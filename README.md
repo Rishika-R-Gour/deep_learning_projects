@@ -26,7 +26,7 @@ This project implements an **end-to-end computer vision pipeline** to classify f
 
 I built a vanilla Convolutional Neural Network (ConvNet) from scratch using Keras image data generators and trained it on the curated dataset. Model evaluation showed **steady improvement in training and validation performance**, reaching ~90–95% validation accuracy with low final loss (~0.25) and a small, stable gap between curves, indicating **strong generalization** and **no evidence of overfitting**. This project demonstrates hands-on experience across the full computer vision workflow, from data collection and preprocessing to modeling and evaluation.
 
-# Project 3: Socioeconomic Risk Classification Using Neural Networks
+## Project 3: Socioeconomic Risk Classification Using Neural Networks
 
 This project implements a neural network–based classification model to identify high-poverty communities using environmental, health, and socioeconomic indicators from the CalEnviroScreen 4.0 dataset.
 
