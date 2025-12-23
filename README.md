@@ -19,3 +19,9 @@ The final model achieved strong performance on the 2025 holdout set:
 Results were analyzed to understand how weather patterns influence energy production,
 and insights were translated into practical implications for energy planning and
 operational decision-making.
+
+## Project 2: Binary Image Classification Using ConvNets
+
+This project implements an **end-to-end computer vision pipeline** to classify food images into two categories: healthy salads and french fries. I collected and curated **several hundred real-world images** using the Bing Image Downloader, cleaned the dataset to remove noise and irrelevant samples, and organized the data into structured training, validation, and test splits stored locally within the Colab runtime.
+
+I built a vanilla Convolutional Neural Network (ConvNet) from scratch using Keras image data generators and trained it on the curated dataset. Model evaluation showed **steady improvement in training and validation performance**, reaching ~90–95% validation accuracy with low final loss (~0.25) and a small, stable gap between curves, indicating **strong generalization** and **no evidence of overfitting**. This project demonstrates hands-on experience across the full computer vision workflow, from data collection and preprocessing to modeling and evaluation.
